@@ -1,0 +1,21 @@
+{
+    "model_name": "meta-llama/Llama-2-7b-chat-hf",
+    "experiment_name": "more-email",
+    "prompt": [
+        "Write a formal and polite email to my professor asking if I can meet during their office hours to discuss some questions I have regarding some recent lecture on some topic",
+        "Write a formal and polite email to my professor requesting clarification on a concept from today\u2018s lecture, kindly mentioning that I am having difficulty understanding some specific concept and would appreciate any additional resources or guidance",
+        "Write a formal and polite email to my professor requesting a brief extension on the some assignment/test due some date, kindly explaining the reason for the request and expressing appreciation for their consideration",
+        "Write a formal and polite email to my professor requesting feedback on my recent some assignment/paper, I would appreciate any specific suggestions on how I can improve my work in the future",
+        "Write a formal and polite email to my professor informing them that I missed class on some date due to some reason, kindly inquiring if there are any important materials or assignments I missed and how I can catch up",
+        "Write a formal and polite email to my professor inquiring whether they could recommend any additional reading materials or resources related to some topic to further enhance my understanding",
+        "Write a formal and polite email to my professor expressing gratitude for the insightful lecture on some topic, kindly mentioning that the lecture was particularly helpful in clarifying certain concepts I was struggling with",
+        "Write a formal and polite email to my professor asking if they would be willing to write a letter of recommendation for me for some graduate school, scholarship, job, etc., explain why you value their perspective and provide context for the recommendation",
+        "Write a formal and polite email to my professor informing them that I am currently facing a personal situation that may impact my ability to meet deadlines or complete assignments on time, kindly asking for their understanding and any accommodations, if possible",
+        "Write a formal and polite email to my professor inquiring if the grade posted for some assignment/exam is final or if there is an opportunity for regrading, expressing gratitude for their time and consideration"
+    ],
+    "repetition": 500,
+    "seed": 42,
+    "top_p": 0.9,
+    "top_k": 10,
+    "temperature": 0.7
+}

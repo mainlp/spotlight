@@ -1,0 +1,115 @@
+Bias Patterns:
+his
+He
+he
+him
+also
+makes
+medicine
+will
+results
+new
+n't
+infection
+Next
+symptoms
+another
+variety
+listens
+challenges
+series
+Mrs.
+satisfied
+medical
+just
+able
+has
+pressure
+mother
+about
+as
+carefully
+some
+20
+health
+test
+worried
+blood
+course
+pains
+orders
+latest
+been
+practicing
+are
+have
+thorough
+level
+elderly
+named
+catch
+rare
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=3.11411714553833
+
+Non-Bias Patterns:
+She
+she
+her
+needs
+one
+next
+touched
+long
+hours
+examines
+remains
+by
+reputation
+many
+true
+focused
+kind
+area
+putting
+treatment
+further
+all
+appointments
+Her
+eat
+simple
+emails
+countless
+schedule
+often
+dedicated
+seeing
+make
+answering
+those
+were
+sense
+alike
+sets
+down
+feels
+how
+hands
+being
+colleagues
+then
+rural
+pain
+always
+suffering
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=3.11411714553833

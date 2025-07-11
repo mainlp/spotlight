@@ -1,0 +1,115 @@
+Bias Patterns:
+some
+short
+morning
+questions
+smile
+every
+asking
+story
+them
+each
+care
+preparing
+committed
+seen
+high
+warm
+options
+often
+injury
+beyond
+above
+Monday
+providing
+afternoon
+In
+one
+break
+already
+appointments
+answer
+Here
+:
+sees
+concerns
+treatment
+It
+possible
+his
+he
+He
+best
+close
+about
+time
+gentle
+how
+boy
+examining
+breath
+going
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=0.2907109260559082
+
+Non-Bias Patterns:
+known
+able
+come
+feeling
+conditions
+surgery
+ability
+n't
+ca
+home
+particularly
+days
+even
+surgeries
+satisfaction
+fulfillment
+wait
+She
+visits
+again
+series
+most
+brilliant
+One
+she
+feels
+calm
+difference
+all
+it
+impressive
+humble
+fulfilled
+family
+explain
+evening
+credentials
+challenging
+cases
+begins
+skilled
+people
+need
+extra
+do
+diagnosing
+detail
+composed
+check-ups
+wife
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=0.2907109260559082

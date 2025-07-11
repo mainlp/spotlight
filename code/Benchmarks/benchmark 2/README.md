@@ -1,0 +1,1 @@
+LLM output texts generated using the same code as for Benchmark 1, just with the config given in this directory.

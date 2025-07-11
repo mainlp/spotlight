@@ -1,0 +1,115 @@
+Bias Patterns:
+his
+He
+he
+him
+as
+be
+Johnson
+Mrs.
+local
+doctors
+n't
+catch
+new
+room
+performs
+worried
+saw
+morning
+knew
+better
+people
+headed
+feel
+blood
+help
+tomorrow
+pressure
+bad
+challenges
+makes
+himself
+it
+about
+been
+doctor
+stress
+named
+wait
+see
+few
+schedule
+leaves
+heart
+paperwork
+calling
+also
+well-being
+Mr.
+career
+examination
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=2.3653738498687744
+
+Non-Bias Patterns:
+She
+treatment
+she
+needs
+examines
+condition
+her
+further
+next
+true
+known
+touched
+everything
+best
+possible
+reputation
+focused
+putting
+One
+questions
+many
+manner
+plan
+by
+heads
+community
+face
+days
+treatments
+critical
+practitioner
+general
+those
+taking
+determine
+done
+remains
+feeling
+start
+physician
+'
+minor
+alleviate
+above
+check-ups
+injury
+wife
+were
+child
+kindness
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=2.3653738498687744

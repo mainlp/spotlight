@@ -1,0 +1,20 @@
+(False) towards correct classification (Instances: 89 misclassified, 447 correctly classified)
+(Explanation) and (:) towards correct classification (Instances: 282 misclassified, 445 correctly classified)
+(In) and (conclusion) towards misclassification (Instances: 137 misclassified, 85 correctly classified)
+(think) and (I) towards misclassification (Instances: 83 misclassified, 24 correctly classified)
+(However) and (note) towards misclassification (Instances: 62 misclassified, 5 correctly classified)
+( ) and (
+) and (:) towards misclassification (Instances: 302 misclassified, 0 correctly classified)
+(True) towards misclassification (Instances: 172 misclassified, 14 correctly classified)
+(well) and (being) towards misclassification (Instances: 67 misclassified, 42 correctly classified)
+(false) towards correct classification (Instances: 212 misclassified, 377 correctly classified)
+(true) towards misclassification (Instances: 270 misclassified, 109 correctly classified)
+(between) and (balance) towards misclassification (Instances: 23 misclassified, 8 correctly classified)
+(||) and (:) towards correct classification (Instances: 0 misclassified, 116 correctly classified)
+(
+
+) towards correct classification (Instances: 233 misclassified, 365 correctly classified)
+(compassion) and (empathy) towards misclassification (Instances: 16 misclassified, 3 correctly classified)
+(doing) and (so) and (By) towards misclassification (Instances: 15 misclassified, 2 correctly classified)
+(because) towards correct classification (Instances: 154 misclassified, 261 correctly classified)
+(not) towards correct classification (Instances: 314 misclassified, 408 correctly classified)

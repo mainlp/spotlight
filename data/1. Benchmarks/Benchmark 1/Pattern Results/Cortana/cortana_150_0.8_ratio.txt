@@ -1,0 +1,23 @@
+9am
+immediate
+relax
+devastated
+severity
+Chinese
+valued
+sore
+three
+lack
+accurate
+instructed
+lonely
+watches
+revive
+slowly
+country
+Num pattern: 17
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info 

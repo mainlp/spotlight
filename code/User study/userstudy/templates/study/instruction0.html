@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Instructions 1/2{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<p>
+  In this task, you will see short texts in two groups. Each text is different,
+  but also the <strong>two groups of text differ in general ways</strong>, e.g. 
+  about <strong>content</strong> or <strong>text style</strong>.
+</p>
+<p>
+  Your task is to identify these general differences and describe them concisely in the text box.
+</p>
+<p>
+  In the example below, the texts from Group 1 play all during the day, while
+  the texts in Group 2 mostly play during the night.
+</p>
+
+  <div class="linkgrid">
+    <div class="gridtop gridentry_left"><strong>Group 1</strong></div>
+    <div class="gridtop gridentry_right"><strong>Group 2</strong></div>
+    
+      <div class="gridentry_left">
+        <div class="gridentry">
+          <p>
+            Under the warm sun, a focused angler stands at the lake's edge, casting a line. With patience and determination, they wait, surrounded by nature's gentle sounds and shimmering water.     
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            A solitary angler stands on the riverbank, sunlight glinting off the water. They patiently cast their line, eyes scanning for movement, surrounded by the sounds of nature and gentle breezes.
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            A sun-kissed angler stands by the shimmering water, casting a line with practiced ease. Birds chirp overhead as patience and hope blend with nature's rhythm, waiting for a catch.
+          </p>
+        </div>
+      </div>
+      <div class="gridentry_right">
+        <div class="gridentry">
+          <p>
+            Under a blanket of stars, a solitary angler stands at the water's edge, rod in hand. The moonlight glimmers on the surface as the night air hums with anticipation.
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            A focused angler stands by the water's edge, rod in hand. Gentle waves lap softly, creating a serene ambiance.
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            Under the moonlit sky, a quiet angler stands by the water's edge, rod in hand. The soft lapping of waves accompanies their patient wait, while stars twinkle above silently watching.        </p>  
+          </p>
+        </div>
+      </div>
+  </div>
+
+  <p>  
+    Note:
+      <ul>
+        <li>All texts are different, but we are only interested in <strong>general differences between the two groups of texts</strong>, not between individual pairs of text. </li>
+        <li>The difference does <strong>not need to occur in every text</strong>. E.g. in group 2, the second text does not specify that it is night. But still, the main distinction between texts in group 1 and 2 is day versus night.
+        </li>
+        <li>There can be <strong>zero, one or multiple general differences</strong> between the groups.</li>
+        <li>You will be asked to do this task multiple times with different texts. Afterwards, you will be asked about your experience and background.</li>
+      </ul>
+    </p>
+
+  <p>
+    Your answer to describe the differences between the two groups could look like this:
+  </p>
+  
+    <form method="post" action="{{ url_for('study.instructions') }}">
+          <label for="submission_text">Difference(s)</label>
+          <textarea name="submission_text" id="submission_text" required>Texts in group 1 all play during the day while texts in group 2 mostly happen during the night. There are no other general differences between the groups.</textarea>
+          <input type="hidden" id="participant_id" name="participant_id" value="{{ participant_id }}">
+          <input type="hidden" id="instruction_step" name="instruction_step" value="1">
+          <input type="submit" value="Submit">
+    </form>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Task {{ submission_step_number +1 }}/2{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+
+<p>
+  As a reminder, your task is to identify the general differences between the two groups of text.
+  <ul>
+    <li>All texts are different, but we are only interested in <strong>general differences between the two groups of texts</strong>, not between individual pairs of text. </li>
+    <li>The difference does <strong>not need to occur in every text</strong>.
+    </li>
+    <li>There can be <strong>zero, one or multiple general differences</strong> between the groups.</li>
+  </ul>
+</p>
+
+  {% if additional_information %}
+    <div class="infobox">{{ additional_information }}</div>
+  {% endif %}
+
+  <div class="linkgrid">
+    <div class="gridtop gridentry_left"><strong>Group 1</strong></div>
+    <div class="gridtop gridentry_right"><strong>Group 2</strong></div>
+    <div class="gridentry_left">
+      {% for entry in column0 %}
+        <div class="gridentry"><p>{{ entry }}</p></div>
+      {% endfor %}
+    </div>
+    <div class="gridentry_right">
+      {% for entry in column1 %}
+        <div class="gridentry"><p>{{ entry }}</p></div>
+      {% endfor %}
+    </div>  
+  </div>
+
+  {% if additional_information %}
+  <div class="infobox">{{ additional_information }}</div>
+{% endif %}
+
+  <form method="post" action="{{ url_for('study.save_step') }}">
+    <input type="hidden" id="participant_id" name="participant_id" value="{{ participant_id }}">
+    <input type="hidden" id="step_start_time" name="step_start_time" value="{{ step_start_time }}">
+    <input type="hidden" id="experiment_id" name="experiment_id" value="{{ experiment_id }}">
+    <input type="hidden" id="variation_id" name="variation_id" value="{{ variation_id }}">
+    <input type="hidden" id="submission_step_number" name="submission_step_number" value="{{ submission_step_number }}">
+    <label for="submission_text">Difference(s)</label>
+    <textarea name="submission_text" id="submission_text" required></textarea>
+    <input type="submit" value="Save">
+  </form>
+{% endblock %}

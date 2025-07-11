@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Background Information{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<p>
+  You were shown two settings, one without word hints and one with word hints (in the green box, like "stars" in the introductory example).
+  Please rate your experience depending for the two settings.
+</p>
+  <form method="post" action="{{ url_for('study.save_demographics') }}">
+    {% for section in sections %}
+      <div class="demographic_section">
+      <p>{{ section['section_header'] }}</p>
+      {% for question in section['questions'] %}
+        <p class="demographic_question">{{ question['question'] }}</p>
+        <span>
+          {% if section['type'] == "agree-disagree" %}
+            <input class="demographic_answer_radio_first" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_sd" 
+            name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Strongly Disagree">
+            Strongly Disagree
+            <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_d" 
+            name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Disagree">
+            Disagree
+            <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_n" 
+            name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Neutral">
+            Neutral
+            <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_a" 
+            name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Agree">
+            Agree
+            <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_sa" 
+            name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Strongly Agree">
+            Strongly Agree
+          {% endif %}
+
+          {% if section['type'] == "never-daily" %}
+          <input class="demographic_answer_radio_first" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_sd" 
+          name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Never">
+          Never
+          <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_d" 
+          name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="A few times">
+          A few times
+          <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_n" 
+          name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Once or twice per month">
+          Once or twice per month
+          <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_a" 
+          name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Once or twice per week">
+          Once or twice per week
+          <input class="demographic_answer_radio" type="radio" id="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}_sa" 
+          name="demographics_{{ section['section_id'] }}_question_{{ question['question_id'] }}" value="Daily">
+          Daily
+          {% endif %}
+        </span>
+      {% endfor %}
+      </div>
+    {% endfor %}
+    <label for="demographics_comments">Additional comments on the study:</label>
+    <textarea name="demographics_comments" id="demographics_comments"></textarea>
+    <input type="hidden" id="participant_id" name="participant_id" value="{{ participant_id }}">
+    <input type="submit" value="Submit">
+  </form>
+{% endblock %}

@@ -1,0 +1,2 @@
+Num pattern: 0
+Mean pattern length: nan

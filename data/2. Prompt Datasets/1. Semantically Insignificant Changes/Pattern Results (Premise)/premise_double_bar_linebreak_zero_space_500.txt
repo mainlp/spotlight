@@ -1,0 +1,17 @@
+(:) and (Explanation) towards correct classification (Instances: 341 misclassified, 445 correctly classified)
+(
+) and (:) towards misclassification (Instances: 337 misclassified, 12 correctly classified)
+(
+
+) towards correct classification (Instances: 124 misclassified, 365 correctly classified)
+(True) towards misclassification (Instances: 194 misclassified, 14 correctly classified)
+(statement) and (false) towards correct classification (Instances: 159 misclassified, 373 correctly classified)
+(statement) and (true) towards misclassification (Instances: 149 misclassified, 95 correctly classified)
+(||) and (:) towards correct classification (Instances: 0 misclassified, 116 correctly classified)
+(False) towards correct classification (Instances: 296 misclassified, 447 correctly classified)
+(statement) and (implies) towards correct classification (Instances: 52 misclassified, 119 correctly classified)
+(not) towards correct classification (Instances: 312 misclassified, 408 correctly classified)
+(think) and (I) towards correct classification (Instances: 5 misclassified, 24 correctly classified)
+(because) towards correct classification (Instances: 166 misclassified, 261 correctly classified)
+(Therefore) towards correct classification (Instances: 116 misclassified, 199 correctly classified)
+(The) towards correct classification (Instances: 314 misclassified, 395 correctly classified)

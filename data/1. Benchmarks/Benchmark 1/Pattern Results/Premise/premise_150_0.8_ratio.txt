@@ -1,0 +1,3 @@
+(He) and (his) and (he) towards misclassification (Instances: 119 misclassified, 75 correctly classified)
+(she) and (She) towards correct classification (Instances: 38 misclassified, 78 correctly classified)
+(Mrs.) and (Johnson) towards misclassification (Instances: 21 misclassified, 5 correctly classified)

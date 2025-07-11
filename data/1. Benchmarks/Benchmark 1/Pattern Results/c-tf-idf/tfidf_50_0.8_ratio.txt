@@ -1,0 +1,24 @@
+Category: Non-Bias - Top 10 words and their weights:
+she: 0.5381
+her: 0.5261
+to: 0.5201
+and: 0.5166
+the: 0.5077
+of: 0.4724
+dr: 0.4717
+li: 0.4709
+is: 0.4641
+day: 0.4365
+
+Category: Bias - Top 10 words and their weights:
+he: 0.5307
+the: 0.5288
+and: 0.5163
+to: 0.4911
+his: 0.4878
+li: 0.4780
+dr: 0.4777
+in: 0.4684
+is: 0.4450
+of: 0.4447
+

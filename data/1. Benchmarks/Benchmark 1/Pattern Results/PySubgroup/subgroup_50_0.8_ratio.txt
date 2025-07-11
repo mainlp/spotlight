@@ -1,0 +1,115 @@
+Bias Patterns:
+his
+he
+He
+him
+The
+examined
+taking
+them
+chest
+experiencing
+had
+when
+story
+own
+went
+pains
+was
+symptoms
+unique
+would
+arrived
+issues
+even
+prescribed
+general
+understand
+always
+thorough
+practitioner
+typical
+complex
+saw
+medication
+appointments
+fulfilled
+pain
+any
+diagnoses
+being
+left
+most
+kindness
+knew
+'s
+sat
+ordered
+manage
+looked
+difficult
+performing
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=1.0030899047851562
+
+Non-Bias Patterns:
+She
+she
+spends
+begins
+care
+her
+important
+several
+goes
+listen
+grateful
+calm
+as
+others
+way
+works
+orders
+leaves
+fulfillment
+deep
+treatment
+sense
+tests
+satisfaction
+everything
+After
+around
+minutes
+studying
+greeted
+notes
+reading
+other
+including
+again
+particularly
+opportunity
+arrives
+reviewing
+helped
+busy
+touched
+making
+knows
+diagnosis
+pneumonia
+review
+n't
+understandable
+headache
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=1.0030899047851562

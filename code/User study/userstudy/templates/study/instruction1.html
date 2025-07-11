@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Instructions 2/2{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<p>
+  Sometimes an <strong>automatic system</strong> will provide you with <strong>additional information 
+  about words that occur differently between
+  the two groups</strong> of texts. In the example below, 
+  the system provides you with the information that the word "stars" occurs more often in the second group. 
+  You can <strong>use this information</strong> to identify the general differences between
+  the groups.
+</p>
+
+  <div class="infobox">The following word(s) occur differently between the two groups of text:
+    <ul><li><strong>stars (more often in group 2)</strong></li></ul>
+  </div>
+
+  <div class="linkgrid">
+    <div class="gridtop gridentry_left"><strong>Group 1</strong></div>
+    <div class="gridtop gridentry_right"><strong>Group 2</strong></div>
+    
+      <div class="gridentry_left">
+        <div class="gridentry">
+          <p>
+            Under the warm sun, a focused angler stands at the lake's edge, casting a line. With patience and determination, they wait, surrounded by nature's gentle sounds and shimmering water.     
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            A solitary angler stands on the riverbank, sunlight glinting off the water. They patiently cast their line, eyes scanning for movement, surrounded by the sounds of nature and gentle breezes.
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            A sun-kissed angler stands by the shimmering water, casting a line with practiced ease. Birds chirp overhead as patience and hope blend with nature's rhythm, waiting for a catch.
+          </p>
+        </div>
+      </div>
+      <div class="gridentry_right">
+        <div class="gridentry">
+          <p>
+            Under a blanket of stars, a solitary figure stands at the water's edge, rod in hand. The moonlight glimmers on the surface as the night air hums with anticipation.
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            A focused figure stands by the water's edge, rod in hand. Gentle waves lap softly, creating a serene ambiance.
+          </p>
+        </div>
+        <div class="gridentry">
+          <p>
+            Under the moonlit sky, a quiet figure stands by the water's edge, rod in hand. The soft lapping of waves accompanies their patient wait, while stars twinkle above silently watching.        </p>  
+          </p>
+        </div>
+      </div>
+  </div>
+
+
+  <p>
+    Please identify the difference(s) between the two groups of text.
+  </p>
+  
+    <form method="post" action="{{ url_for('study.instructions') }}">
+          <label for="submission_text">Difference(s)</label>
+          <textarea name="submission_text" id="submission_text" required></textarea>
+          <input type="hidden" id="submission_step_number" name="submission_step_number" value="-1">
+          <input type="hidden" id="instruction_step" name="instruction_step" value="2">
+          <input type="hidden" id="participant_id" name="participant_id" value="{{ participant_id }}">
+          <input type="submit" value="Submit">
+    </form>
+{% endblock %}

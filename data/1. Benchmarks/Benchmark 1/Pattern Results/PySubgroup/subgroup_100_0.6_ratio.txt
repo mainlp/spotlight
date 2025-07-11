@@ -1,0 +1,115 @@
+Bias Patterns:
+been
+see
+compassion
+years
+answering
+how
+all
+hours
+providing
+his
+he
+He
+pain
+knew
+other
+provides
+finds
+named
+loved
+spent
+was
+severe
+seen
+brilliant
+suffering
+Next
+him
+night
+performs
+calling
+moving
+mind
+being
+felt
+purpose
+healing
+manage
+bedside
+advice
+hospital
+Despite
+medical
+some
+cough
+local
+hands
+demands
+inspiration
+examining
+moved
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=1.631077766418457
+
+Non-Bias Patterns:
+She
+comes
+elderly
+knows
+taking
+heads
+concerns
+The
+positive
+feeling
+short
+fulfilled
+variety
+make
+first
+possible
+able
+world
+proud
+into
+listens
+knowledge
+way
+reflects
+ready
+grateful
+will
+each
+practice
+important
+start
+by
+their
+detail
+understand
+opportunity
+issues
+calm
+have
+impact
+It
+from
+room
+again
+ambitious
+rises
+examined
+asking
+common
+critical
+Num pattern: 50
+Mean pattern length: 1.0
+Min pattern length: 1
+Max pattern length: 1
+Std pattern length: 0.0
+Add. info result_set_size=50, depth=1, search_algorithm=SimpleDFS, duration=1.631077766418457
