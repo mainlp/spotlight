@@ -1,5 +1,5 @@
 # Spotlight 
-This is the repository for the Spotlight approach presented in the ACL paper "[What's the Difference? Supporting Users in Identifying the Effects of Prompt and Model Changes Through Token Patterns](https://arxiv.org/abs/2504.15815v2)".
+This is the repository for the Spotlight approach presented in the ACL paper "[What's the Difference? Supporting Users in Identifying the Effects of Prompt and Model Changes Through Token Patterns](https://aclanthology.org/2025.acl-long.985/)".
 
 If you are looking for the data mining method used as core component in Spotlight, please go to the [PyPremise](https://github.com/m-hedderich/PyPremise) library.
 
@@ -30,13 +30,17 @@ If you use this approach in your work, we would be happy if you tell us about it
 If you use Spotlight in your academic work, please cite
 
 ```
-@misc{hedderich2025whatsdifferencesupportingusers,
-      title={What's the Difference? Supporting Users in Identifying the Effects of Prompt and Model Changes Through Token Patterns}, 
-      author={Michael A. Hedderich and Anyi Wang and Raoyuan Zhao and Florian Eichin and Barbara Plank},
-      year={2025},
-      eprint={2504.15815},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.15815}, 
+@inproceedings{hedderich-etal-2025-whats,
+    title = "What{'}s the Difference? Supporting Users in Identifying the Effects of Prompt and Model Changes Through Token Patterns",
+    author = "Hedderich, Michael A.  and
+      Wang, Anyi  and
+      Zhao, Raoyuan  and
+      Eichin, Florian  and
+      Fischer, Jonas  and
+      Plank, Barbara",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2025",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.985/"
 }
 ```
